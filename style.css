@@ -1,0 +1,119 @@
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #D98481
+    !important;
+}
+
+/* 헤더 영역 */
+header{
+   background-image:linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(images/background.jpg);
+   background-size:cover;
+   background-position: center top;
+   background-attachment: fixed;
+
+}
+
+      body {
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    .gugi-font {
+        font-family: 'Gugi', cursive;
+    }
+    
+
+.a{
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1,h2 {font-family: 'Black Han Sans', sans-serif;
+}
+h3,h4,h5,h6 {
+    font-family: 'Noto Serif KR', serif;}
+.fs4, .fs5, .fs6, p{font-family: 'Noto Serif KR', serif;}
+    nav{background-color: #3F4E4F
+        ;}
+
+
+        .btn-dark {
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: #3F4E4F;
+            --bs-btn-border-color: var(--bd-#3F4E4F);
+            --bs-btn-border-radius: .5rem;}
+
+
+/* 금주의 인기여행지 섹션 */  
+ 
+#intro .intro-first-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18rem;
+}
+
+#intro .col-6:nth-of-type(1) .intro-first-card {
+    background-image: url("images/boracay.jpg");
+}
+
+#intro .col-6:nth-of-type(2) .intro-first-card {
+    background-image: url("images/bangpa.jpg");
+}
+
+#intro .col-6:nth-of-type(3) .intro-first-card {
+    background-image: url("images/danag.jpg");
+}
+
+#intro .col-6:nth-of-type(4) .intro-first-card {
+    background-image: url("images/xihang.jpg");
+}
+
+
+#intro .intro-first-card .overlay {
+    left: 3;
+    top: 3;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#intro .intro-first-card .overlay a {
+    tranision: hover 0.4s ease;
+}
+
+
+#intro .intro-first-card .overlay a:hover {
+    color: #fafa6f;
+}
+
+
+/* Contact 영역 */
+#contact{
+    position:relative;
+}
+
+#contact .contact {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:2rem;
+    padding:1.5rem;
+    height:auto;
+    background-color:rgba(255,255,255,0.85);
+    transition: all 0.4s ease-in;
+}
+
+#contact .contact:hover{
+    background-color: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+
+
+
+
+    
